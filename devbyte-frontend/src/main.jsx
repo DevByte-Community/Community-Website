@@ -4,8 +4,8 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
 import './index.css'
-import App from './App.jsx'
 import './styles/globals.css';
+import AppRoutes from './routes/AppRoutes'
 
 // createRoot(document.getElementById('root')).render(
 //   <StrictMode>
@@ -15,6 +15,6 @@ import './styles/globals.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
-    <App />
+    <AppRoutes/>
   </BrowserRouter>
 )
