@@ -4,18 +4,16 @@ import Login from "../pages/auth/Login.jsx";
 import Signup from "@/pages/auth/Signup.jsx";
 import Home from "@/pages/Home.jsx";
 import CommunityGuidelines from "../pages/CommunityGuidelines.jsx";
-import App from "@/App.jsx";
+import Learning from "@/pages/Learning.jsx";
 
 export default function AppRoutes() {
   return (
     <Routes>
-      <Route path="/" element={<App />} />
+      <Route path="/" element={<Home />} />
       <Route path="login" element={<Login />} />
       <Route path="signup" element={<Signup />} />
-      <Route path="home" element={<Home />} />
       <Route path="communityGuidelines" element={<CommunityGuidelines />} />
+      <Route path="learning" element={<Learning />} />
     </Routes>
   );
 }
-
-// This is an optional place holder script
